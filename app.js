@@ -1,11 +1,4 @@
 
-// let titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do numero secreto';
-
-// let paragrafo = document.querySelector('p');
-// paragrafo.innerHTML = 'Escolha um numero entre 1 e 10';
-
-// Esse aqui de baixo serve como uma boa pratica mais facil de se programar
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10
 let numeroSecreto = gerarNumeroAleatorio();
@@ -42,7 +35,6 @@ function verificarChute() {
         } else {
             exibirTextoNaTela('p', 'O numero secreto é maior');
         }
-        // tentativas = tentativas + 1
         tentativas ++;
         limparCampo();
     }
